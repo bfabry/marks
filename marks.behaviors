@@ -1,0 +1,4 @@
+{:+ {:app [(:lt.objs.plugins/load-js "marks_compiled.js" true)]
+     :editor [:lt.plugins.marks/remember-large-movements
+              :lt.plugins.marks/remember-edits
+              :lt.plugins.marks/jump-to-mark]}}
